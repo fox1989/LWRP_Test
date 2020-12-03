@@ -38,7 +38,7 @@ public class LightEditor : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-
+        Gizmos
         if (lookat == null)
         {
             lookat = GameObject.CreatePrimitive(PrimitiveType.Sphere);
